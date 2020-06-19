@@ -1,40 +1,47 @@
 .content{
     text-align: center;
-
 }
 
 .nav-menu{
     margin-bottom: 275px;
     width: 100%;
-    
+    font-size: 15px;
 }
 
 .footer{
     background-color: #f2f2f2;
     width: 100%;
-    margin-top: 700px;
-    
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;    
 }
 
 .push-right{
-    margin-left: auto;
+    margin-left: auto;    
+}
+
+.round-image{
+    border-radius: 50%;
 }
 
 body{
-    font-size: 14px;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 ul{
     display: flex;
     flex-direction: row;
+    align-items: center;
     list-style-type: none;
-}
+    margin-right: 30px;
+    margin-left: -25px;}
 
 a{
-    padding: .9em;
+    padding: 1em;
     color: grey;
     text-decoration: none;
 }
