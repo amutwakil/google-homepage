@@ -5,19 +5,19 @@
 
 .nav-menu{
     margin-bottom: 275px;
-    margin-left: -35px;
-    padding: 10px;
+    width: 100%;
+    
 }
 
 .footer{
-    /*correct backround
-    background-color: #f2f2f2;*/
-    background-color: hotpink;
-    /*will control how far center is from footer*/
-    margin-top: 625px;
-    margin-left: -15px;    
-    padding: 10px;
+    background-color: #f2f2f2;
+    width: 100%;
+    margin-top: 700px;
+    
+}
 
+.push-right{
+    margin-left: auto;
 }
 
 body{
@@ -28,11 +28,9 @@ body{
 }
 
 ul{
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
-}
-
-li{
-    display: inline;
 }
 
 a{
@@ -41,11 +39,12 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    text-decoration: underline;
-}
-
 img{
     max-width: 100%;
     height: auto;
 }
+
+a:hover{
+    text-decoration: underline;
+}
+
