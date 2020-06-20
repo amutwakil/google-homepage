@@ -1,5 +1,7 @@
 .content{
     text-align: center;
+    position: relative;
+    top: -40px;
 }
 
 .nav-menu{
@@ -20,8 +22,17 @@
     margin-left: auto;    
 }
 
-.round-image{
+.thumbnail{
     border-radius: 50%;
+}
+
+.search-bar{
+    opacity: .3;
+    width: 30%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5% / 50%;
 }
 
 body{
@@ -41,7 +52,7 @@ ul{
     margin-left: -25px;}
 
 a{
-    padding: 1em;
+    padding: .5em;
     color: grey;
     text-decoration: none;
 }
