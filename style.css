@@ -35,6 +35,16 @@
     border-radius: 5% / 50%;
 }
 
+div > button{
+    height: 40px;
+    width: 150px;
+    opacity: .7;
+    font-size: 16px;
+    margin: .2em;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
 body{
     font-family: sans-serif;
     margin: 0;
@@ -53,7 +63,7 @@ ul{
 
 a{
     padding: .5em;
-    color: grey;
+    color: grey; 
     text-decoration: none;
 }
 
